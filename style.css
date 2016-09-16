@@ -1,21 +1,20 @@
 body {
-background: white;
-border: solid grey;
-border-style: double 3px;
-border-radius: 5px;
-/*box-shadow: 6px 6px 0px orange;*/
-box-shadow: 1px 1px 12px orange;
+	border: solid grey;
+	border-style: double 3px;
+	border-radius: 5px;
+	/*box-shadow: 6px 6px 0px orange;*/
+	box-shadow: 1px 1px 12px orange;
 }
 
- .center {
- 	text-align: center;
- }
+.center {
+	text-align: center;
+}
 
- .ident h2{
+.ident h2{
 	color: green;
 }
 
- .ident h4 {
+.ident h4 {
 	margin-top: -10px;
 	margin-left: 0px;
 }
@@ -64,9 +63,9 @@ h1{
 	padding : 3px;
 	background-color: #7200da;
 }
-	
 
- h3{
+
+h3{
 	text-transform: uppercase;
 	background: #3ac569 ;
 	padding: 10px;
@@ -100,7 +99,7 @@ i {
 }
 
 li {
-list-style: none;
+	list-style: none;
 }
 /*.formations  li {
 	margin-left: 200px;
