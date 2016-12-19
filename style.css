@@ -1,10 +1,4 @@
-body {
-	border: solid grey;
-	border-style: double 3px;
-	border-radius: 5px;
-	/*box-shadow: 6px 6px 0px orange;*/
-	box-shadow: 1px 1px 12px orange;
-}
+
 
 .center {
 	text-align: center;
@@ -23,9 +17,9 @@ body {
 	margin-left: -40px;
 }
 
+
 h1{
 	color: orange;
-	text-shadow: 0px 0px 9px gray;
 	text-transform: uppercase;
 	font-family: 'Gloria Hallelujah';
 	margin-bottom: -20px;
@@ -43,12 +37,14 @@ h1{
 
 }
 
-.ident h2 {
-	color: green;	
+.accroche p {
+	font-size: 25px;
+	margin-top: -2em;
+	margin-left: 5em;
 }
 
 .photo img {
-	width: 150px;
+	width: 180px;
 }
 
 .tech img {
@@ -67,27 +63,27 @@ h1{
 
 h3{
 	text-transform: uppercase;
-	background: #3ac569 ;
-	padding: 10px;
-	border: solid grey;
-	border-radius: 10px;
-	color: white;
+	color: #000;
 	text-align: center;
-	box-shadow: 1px 1px 12px orange;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 2em;
+	
+}
+
+.experience, .formations, .loisirs {
+	margin-left: 10em;
 }
 
 .experience h5 {
 	color:#56A902;
-	margin-top:-20px;
-	margin-bottom: -10px;
-	text-align: center;
+	/*margin-top:-20px;
+	margin-bottom: -10px;*/
+	/*text-align: center;*/
+
 }
 
 
 strong {
-	color:orange;
+	color:#000;
 }
 
 em {
@@ -101,10 +97,35 @@ i {
 li {
 	list-style: none;
 }
-/*.formations  li {
-	margin-left: 200px;
+
+hr {
+	margin:0 auto;
+	width: 80%
+
 }
 
-.loisirs  li {
-	margin-left: 200px;
-} */
+.html img, .css img, .js img, .team img, .data img, .logoformation img {
+  width: 150px;
+  height: 150px; }
+
+  .logo {
+  	display: flex;
+  	justify-content: space-around;
+  	margin-top: 3em;
+  }
+
+  a:hover {
+
+	color: #5CAB7D;
+}
+a {
+	color:#56A902;
+}
+
+i {
+	margin-top: 1em;
+}
+
+.loisirs li {
+	list-style: circle;
+}
