@@ -1,5 +1,4 @@
 
-
 .center {
 	text-align: center;
 }
@@ -27,6 +26,10 @@ h1{
 
 .titre h2{
 	color: #FFBC42;
+}
+
+.titre a {
+	color: #5CAB7D;
 }
 
 .accroche {
@@ -75,10 +78,6 @@ h3{
 
 .experience h5 {
 	color:#56A902;
-	/*margin-top:-20px;
-	margin-bottom: -10px;*/
-	/*text-align: center;*/
-
 }
 
 
@@ -92,6 +91,7 @@ em {
 
 i {
 	margin-right: 40px;
+
 }
 
 li {
